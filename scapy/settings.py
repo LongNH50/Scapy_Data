@@ -15,7 +15,7 @@ BOT_NAME = 'stackoverflow'
 NEWSPIDER_MODULE = 'stackoverflow.spiders'
 
 ITEM_PIPELINES = {
-       'stackoverflow.pipelines.StackoverflowPipeline': 300,
+       'scapy.pipelines.StackoverflowPipeline': 300,
 }
  
 ROBOTSTXT_OBEY = False
