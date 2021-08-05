@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from stackoverflow.items import StackoverflowItem
+from scapy.items import StackoverflowItem
 
 
 class MyspiderSpider(scrapy.Spider):
